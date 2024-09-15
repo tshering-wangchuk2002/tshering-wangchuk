@@ -170,6 +170,7 @@ h2 {
 }
 .about_section .container .row .details .works .items h5 {
   transition: all 0.5s ease-in-out;
+  font-size: 20px;
 }
 .about_section .container .row .details .works .items p {
   transition: all 0.5s ease-in-out;
@@ -339,6 +340,8 @@ h2 {
 }
 .testimonial_section .container .first_box .main_box .sub_box .description p {
   margin-bottom: 40px;
+  border-left: 3px solid #212529;
+  padding-left: 15px;
 }
 .testimonial_section .container .first_box .main_box .sub_box .description h6 {
   margin-bottom: 20px;
@@ -408,8 +411,8 @@ footer .container .sub_container p {
 footer .container .sub_container p a {
   text-decoration: none;
   color: black;
-  font-family: "Dancing Script";
-  font-size: 35px;
+  font-size: 22px;
+  font-weight: 500;
 }
 footer .container .top {
   display: flex;

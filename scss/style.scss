@@ -254,6 +254,7 @@ h2 {
 
                         h5 {
                             transition: all 0.5s ease-in-out;
+                            font-size: 20px;
                         }
 
                         p {
@@ -497,6 +498,8 @@ h2 {
                     .description {
                         p {
                             margin-bottom: 40px;
+                            border-left: 3px solid #212529;
+                            padding-left: 15px;
                         }
 
                         h6 {
@@ -603,8 +606,9 @@ footer {
                 a {
                     text-decoration: none;
                     color: black;
-                    font-family: "Dancing Script";
-                    font-size: 35px;
+                    // font-family: "Dancing Script";
+                    font-size: 22px;
+                    font-weight: 500;
                 }
             }
         }
