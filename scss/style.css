@@ -499,4 +499,7 @@ footer .container .top a i {
   .about_section .works .items {
     width: 90% !important;
   }
+  footer p a {
+    font-size: 16px !important;
+  }
 }/*# sourceMappingURL=style.css.map */
