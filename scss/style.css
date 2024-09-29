@@ -115,6 +115,7 @@ h2 {
   color: #000000;
 }
 .hero_section .container .row .intro_pic {
+  margin: 0 auto;
   margin-top: 30px;
   width: 350px;
   height: 350px;
@@ -443,5 +444,59 @@ footer .container .top a i {
 @media (max-width: 1028px) {
   .contact_section .row {
     gap: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .hero_section {
+    padding: 20px 20px;
+    padding-bottom: 50px;
+  }
+  .hero_section h1 {
+    text-align: center;
+  }
+  .hero_section h3 strong {
+    font-size: 25px !important;
+  }
+  .about_section {
+    padding: 50px 20px;
+  }
+  .skills_section {
+    padding: 50px 20px;
+  }
+  .project_section {
+    padding: 50px 20px;
+  }
+  .testimonial_section {
+    padding: 50px 20px;
+  }
+  .testimonial_section p q {
+    font-size: 18px;
+  }
+  .contact_section {
+    padding: 50px 20px;
+  }
+  .contact_section .sub_socials {
+    width: 100% !important;
+  }
+  .social_icon nav ul {
+    display: inline-block;
+    display: flex;
+    flex-direction: row !important;
+    height: 40px !important;
+    justify-content: center !important;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    padding-left: 0px;
+  }
+  .intro_pic {
+    margin-top: 50px !important;
+  }
+  .about_section .works {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .about_section .works .items {
+    width: 90% !important;
   }
 }/*# sourceMappingURL=style.css.map */

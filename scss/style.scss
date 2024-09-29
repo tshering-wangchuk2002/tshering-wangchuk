@@ -171,6 +171,7 @@ h2 {
 
             .intro_pic {
                 // border: 1px solid black;
+                margin: 0 auto;
                 margin-top: 30px;
                 width: 350px;
                 height: 350px;
@@ -661,10 +662,78 @@ footer {
     }
 }
 
+
 @media (max-width:1028px) {
     .contact_section {
         .row {
             gap: 20px;
+        }
+    }
+}
+@media (max-width:576px){
+    .hero_section{
+        padding: 20px 20px;
+        padding-bottom: 50px;
+        h1{
+            // border: 1px solid black;
+            text-align: center;
+        }
+        h3{
+            strong{
+                font-size: 25px !important;
+            }
+        }
+        // border: 1px solid black;
+    }
+    .about_section{
+        padding: 50px 20px;
+    }
+    .skills_section{
+        padding: 50px 20px;
+    }
+    .project_section{
+        padding: 50px 20px;
+    }
+    .testimonial_section{
+        padding: 50px 20px;
+        p{
+            q{
+                font-size: 18px;
+            }
+        }
+    }
+    .contact_section{
+        padding: 50px 20px;
+        .sub_socials{
+            width: 100% !important;
+        }
+    }
+    .social_icon{
+        nav{
+            ul{
+                display: inline-block;
+                // border: 1px solid black;
+                display: flex;
+                flex-direction: row !important;
+                height: 40px !important;
+                justify-content: center !important;
+                column-gap: 40px;
+                padding-left: 0px;
+                // justify-content: center;
+            }
+        }
+    }
+    .intro_pic{
+        margin-top: 50px !important;
+    }
+    .about_section{
+        .works{
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center;
+            .items{
+                width: 90% !important;
+            }
         }
     }
 }
